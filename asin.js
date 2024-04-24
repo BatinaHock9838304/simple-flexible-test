@@ -1,3 +1,4 @@
-const toggleBool = () => (bool = !bool);
-const stringReverse = str => str.split("").reverse().join("");
-const clearCookies = document.cookie.split(';').forEach(cookie => document.cookie = cookie.replace(/^ +/, '').replace(/=.*/, `=;expires=${new Date(0).toUTCString()};path=/`));
+const flattenedArray = arr => [].concat(...arr);
+const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
