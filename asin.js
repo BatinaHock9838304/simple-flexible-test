@@ -1,4 +1,5 @@
-const flattenedArray = arr => [].concat(...arr);
-const isAppleDevice = () => /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const symbolsPath = path.join(buildOutputPath, 'symbols');
-const cookie = name => `; ${document.cookie}`.split(`; ${name}=`).pop().split(';').shift();
+const average = arr => arr.reduce((a, b) => a + b) / arr.length;
+console.log(typeof typeof 1);
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
