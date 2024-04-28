@@ -1,5 +1,3 @@
-const average = arr => arr.reduce((a, b) => a + b) / arr.length;
-console.log(typeof typeof 1);
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const toggleElementDisplay = element => element.style.display = (element.style.display === "none" ? "block" : "none");
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const capitalizeAllWords = str => str.replace(/\b\w/g, char => char.toUpperCase());
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
