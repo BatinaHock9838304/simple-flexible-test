@@ -1,3 +1,2 @@
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const isEmptyObject = obj => Object.keys(obj).length === 0;
+const lastElement = arr => arr[arr.length - 1];
+console.log( "A" - "B" + "2");
