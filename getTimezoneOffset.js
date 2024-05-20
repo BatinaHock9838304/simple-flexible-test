@@ -1,2 +1,3 @@
-const resultingPromises = urls.map((url) => makHttpRequest(url));
-const value = ( 5 < 7 ) ? "True" : "False" ;
+console.log("0 && 1 = "+(0 && 1));
+const timeFromDate = date => date.toTimeString().slice(0, 8);
+[foo, bar] = [bar, foo];
