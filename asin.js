@@ -1,3 +1,3 @@
-const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
-const shuffledArray = array.sort(() => Math.random() - 0.5); 
+var DELIM_SIZE = 4;
+const symbolsPath = path.join(buildOutputPath, 'symbols');
+const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
