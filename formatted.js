@@ -1,2 +1,2 @@
-const lastElement = arr => arr[arr.length - 1];
-console.log( "A" - "B" + "2");
+const isWeekday = (date) => date.getDay() % 6 !== 0;
+const uniqueArr = (arr) => [...new Set(arr)];
