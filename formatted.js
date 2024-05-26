@@ -1,2 +1,2 @@
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const uniqueArr = (arr) => [...new Set(arr)];
+const randomArrayItem = (arr) => arr[Math.floor(Math.random() * arr.length)];
+const shuffleArray = arr => arr.sort(() => Math.random() - 0.5);
