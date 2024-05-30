@@ -1,2 +1,3 @@
-const minNumber = arr => Math.min(...arr);
-const celsiusToFahrenheit = (celsius) => celsius * 9/5 + 32;
+console.log(1 +  +"2" + "2");
+const dayOfYear = (date) => Math.floor((date - new Date(date.getFullYear(), 0, 0)) / 1000 / 60 / 60 / 24);
+const stripHtml = html => (new DOMParser().parseFromString(html, 'text/html')).body.textContent || '';
