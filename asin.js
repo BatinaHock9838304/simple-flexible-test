@@ -1,2 +1,3 @@
-const isEmptyArray = arr => !arr.length;
-console.log("0 || 1 = "+(0 || 1));
+const isWeekday = (date) => date.getDay() % 6 !== 0;
+const goToTop = () => window.scrollTo(0, 0);
+const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
