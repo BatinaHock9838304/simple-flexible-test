@@ -1,3 +1,1 @@
-console.log("0 && 1 = "+(0 && 1));
-const timeFromDate = date => date.toTimeString().slice(0, 8);
-[foo, bar] = [bar, foo];
+console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
