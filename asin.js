@@ -1,3 +1,2 @@
-const isWeekday = (date) => date.getDay() % 6 !== 0;
-const goToTop = () => window.scrollTo(0, 0);
-const touchSupported = () => {('ontouchstart' in window || window.DocumentTouch && document instanceof window.DocumentTouch)};
+function myAPITS(someString: string, someNum: number) { ... };
+const allResults = await Promise.all(items.map(async (item) => {}));
