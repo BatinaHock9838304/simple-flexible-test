@@ -1,3 +1,1 @@
-const dayDif = (date1, date2) => Math.ceil(Math.abs(date1.getTime() - date2.getTime()) / 86400000);
-const toggleBool = () => (bool = !bool);
-console.log( "A" - "B" + "2");
+const isEmptyArray = arr => !arr.length;
