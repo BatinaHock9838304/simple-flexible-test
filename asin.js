@@ -1,2 +1,3 @@
-function myAPITS(someString: string, someNum: number) { ... };
-const allResults = await Promise.all(items.map(async (item) => {}));
+var regexp  = new RegExp('{{([^}]+)}}', 'g');
+var DELIM_SIZE = 4;
+const getParameters = (URL) => JSON.parse('{"' + decodeURI(URL.split("?")[1]).replace(/"/g, '\\"').replace(/&/g, '","').replace(/=/g, '":"') +'"}');
