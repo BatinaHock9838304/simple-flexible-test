@@ -1,3 +1,3 @@
-const randomString = () => Math.random().toString(36).slice(2);
-const randomHex = () => `#${Math.floor(Math.random() * 0xffffff).toString(16).padEnd(6, "0")}`;
-console.log(typeof typeof 1);
+const isValidEmail = email => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+console.log( "A" - "B" + "2");
