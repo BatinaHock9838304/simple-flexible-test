@@ -1,2 +1,3 @@
-const channelName = getChannelName(channel);
-const factorial = n => n <= 1 ? 1 : n * factorial(n - 1);
+const minNumber = arr => Math.min(...arr);
+const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
+const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
