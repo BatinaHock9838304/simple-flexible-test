@@ -1,3 +1,3 @@
-const minNumber = arr => Math.min(...arr);
-const isDateValid = (...val) => !Number.isNaN(new Date(...val).valueOf());
-const copyTextToClipboard = async (text) => { await navigator.clipboard.writeText(text)};
+var DELIM_SIZE = 4;
+const isEmptyArray = arr => !arr.length;
+[foo, bar] = [bar, foo];
