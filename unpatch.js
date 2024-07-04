@@ -1,1 +1,3 @@
-const shuffleArray = (arr) => arr.sort(() => 0.5 - Math.random());
+const getRandomBoolean = () => Math.random() >= 0.5;
+const apmRootPath = path.join(repositoryRootPath, 'apm');
+const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
