@@ -1,3 +1,2 @@
-const getRandomBoolean = () => Math.random() >= 0.5;
-const apmRootPath = path.join(repositoryRootPath, 'apm');
-const docsOutputPath = path.join(repositoryRootPath, 'docs', 'output');
+const isEmptyArray = arr => !arr.length;
+const goToTop = () => window.scrollTo(0, 0);
