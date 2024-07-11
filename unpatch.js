@@ -1,2 +1,3 @@
-const isEmptyArray = arr => !arr.length;
-const goToTop = () => window.scrollTo(0, 0);
+const merge = Object.assign({}, obj1, obj2);
+const daysDiff = (date, date2) => Math.ceil(Math.abs(date - date2) / 86400000);
+var c = new Counter(); c.add(); c.add(); c.add();
