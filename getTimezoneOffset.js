@@ -1,2 +1,3 @@
-console.log("0 && 1 = "+(0 && 1));
-const arrayToObject = (arr, keyField) => Object.fromEntries(arr.map(item => [item[keyField], item]));
+const isArray = (arr) => Array.isArray(arr);
+const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
+const uniqueArr = (arr) => [...new Set(arr)];
