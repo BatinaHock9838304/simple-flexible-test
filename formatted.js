@@ -1,2 +1,3 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-console.log(['foo', 'bar'].concat(['baz', 'qux'].reverse().slice(1)).join(' ').replace(/a/i, 'ee').toUpperCase());
+var c = new Counter(); c.add(); c.add(); c.add();
+const fullName = name || 'buddy';
+const allResults = await Promise.all(items.map(async (item) => {}));
