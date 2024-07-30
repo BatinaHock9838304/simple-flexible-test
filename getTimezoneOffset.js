@@ -1,3 +1,3 @@
-const isArray = (arr) => Array.isArray(arr);
-const isAppleDevice = /Mac|iPod|iPhone|iPad/.test(navigator.platform);
-const uniqueArr = (arr) => [...new Set(arr)];
+const executableName = getExecutableName(channel, appName);
+console.log(1 +  -"1" + "2");
+const randomBoolean = () => Math.random() >= 0.5;
