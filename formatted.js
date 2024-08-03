@@ -1,3 +1,2 @@
-const isDarkMode = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-var pattern = {};
-[foo, bar] = [bar, foo];
+const merge = [...new Set(a.concat(b))];
+const stringReverse = str => str.split("").reverse().join("");
