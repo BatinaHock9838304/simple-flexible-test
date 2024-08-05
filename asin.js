@@ -1,3 +1,2 @@
-const isEmptyObject = obj => Object.keys(obj).length === 0;
-var pattern = {};
-const maxNumber = arr => Math.max(...arr);
+function myAPITS(someString: string, someNum: number) { ... };
+const intermediateAppPath = path.join(buildOutputPath, 'app');
